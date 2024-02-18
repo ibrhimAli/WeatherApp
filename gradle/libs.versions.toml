@@ -1,0 +1,133 @@
+#===========versions================
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.21"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.7.0"
+ktlintVersion = "12.1.0"
+crashlyticsVersion = "2.9.9"
+##dagger-hilt
+daggerHilt = "2.50"
+androidNavigationVersion = "2.7.7"
+##RX
+rxJavaVersion = "3.1.8"
+rxAndroidVersion = "3.0.2"
+rxKotlinVersion = "3.0.1"
+rxAnimationsVersion = "2.1.1"
+##Network
+retrofitVersion = "2.9.0"
+okHttpVersion = "4.2.0"
+##mesh
+moshiVersion = "1.15.0"
+##Picasso
+picassoVersion = "2.71828"
+##
+threetenabpVersion = "1.3.1"
+shadowViewVersion = "0.0.3"
+algoliaVersion = "3.+"
+stethoVersion = "1.6.0"
+timberVersion = "4.7.1"
+lifecycleViewModelKtxVersion = "2.7.0"
+lifecycleVersion = "2.2.0"
+roomVersion = "2.6.1"
+navigationVersion = "2.7.7"
+supportVersion = "1.0.0"
+appCompatVersion = "1.6.1"
+materialDesignVersion = "1.11.0"
+coreKtxVersion = "1.12.0"
+williamchartVersion = "2.2"
+
+
+
+#=================Libraries============
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+diogobernardino-williamchart = { module = "com.diogobernardino:williamchart", version.ref = "williamchartVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+# hilt
+hilt = {group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt"}
+hiltCompiler = {group = "com.google.dagger", name = "hilt-compiler", version.ref = "daggerHilt"}
+# RX
+rxJava = {group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJavaVersion"}
+rxAndroid = {group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroidVersion"}
+rxKotlin = {group = "io.reactivex.rxjava3", name = "rxkotlin", version.ref = "rxKotlinVersion"}
+rxAnimations = {group = "com.mikhaellopez", name = "rxanimation", version.ref = "rxAnimationsVersion"}
+##network
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion"}
+okHttp = {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpVersion"}
+rxJavaAdapter = {group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion"}
+##moshi
+moshiConverter = {group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofitVersion"}
+moshi = {group = "com.squareup.moshi", name = "moshi", version.ref = "moshiVersion"}
+moshiKotlin = {group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshiVersion"}
+moshiKapt = {group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshiVersion"}
+##picasso
+picasso = {group = "com.squareup.picasso", name = "picasso", version.ref = "picassoVersion"}
+
+##shadowView
+shadowView = {group = "com.loopeer.lib", name = "shadow", version.ref = "shadowViewVersion"}
+
+##threetenabp
+threetenabp = {group = "com.jakewharton.threetenabp", name = "threetenabp", version.ref = "threetenabpVersion"}
+
+
+##algolia
+algolia = {group = "com.algolia", name = "algoliasearch-android", version.ref = "algoliaVersion"}
+
+##stetho
+stethoCore = {group = "com.facebook.stetho", name = "stetho", version.ref = "stethoVersion"}
+stethoOkHttp = {group = "com.facebook.stetho", name = "stetho-okhttp3", version.ref = "stethoVersion"}
+stethoUrlConnection = {group = "com.facebook.stetho", name = "stetho-urlconnection", version.ref = "stethoVersion"}
+
+##timber
+timber = {group = "com.jakewharton.timber", name = "timber", version.ref = "timberVersion"}
+
+##lifecycle
+lifecycleExt = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleVersion"}
+lifecycleAnnotation = {group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycleVersion"}
+liveDataKtx = {group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleVersion"}
+lifecycleViewModelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModelKtxVersion"}
+
+
+##navigation
+navigationFragment = {group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationVersion"}
+navigationUI = {group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationVersion"}
+
+##room
+roomRuntime = {group = "androidx.room", name = "room-runtime", version.ref = "roomVersion"}
+roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomVersion"}
+
+
+kotlin = {group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin"}
+kotlinReflect = {group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin"}
+
+##android support
+supportv4 = {group = "androidx.legacy", name = "legacy-support-v4", version.ref = "supportVersion"}
+appCompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appCompatVersion"}
+materialDesign = {group = "com.google.android.material", name = "material", version.ref = "materialDesignVersion"}
+recyclerView = {group = "androidx.recyclerview", name = "recyclerview", version.ref = "supportVersion"}
+cardView = {group = "androidx.cardview", name = "cardview", version.ref = "supportVersion"}
+coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion"}
+
+
+#=====================plugins====================
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinParcelize = { id = "kotlin-parcelize", version.ref = "kotlin"}
+kotlinKapt = { id = "kotlin-kapt", version.ref = "kotlin"}
+androidNavigation = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidNavigationVersion"}
+daggerHilt = { id = "dagger.hilt.android.plugin", version.ref = "daggerHilt"}
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlintVersion"}
+##carshlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlyticsVersion"}
+
+
+
+
+
